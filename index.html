@@ -1,31 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../style.css">
+
   <title>Frontend Mentor | Fylo data storage component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  You’ve used 815 GB of your storage
+  <div class="container">
 
-  185 GB Left
+<!-- Logo Box Section -->
+    <div class="logo-box">
+
+        <img class="logo-img" src="/images/logo.svg" alt="Fylo logo">
+
+        <img class="icon-img" src="/images/icon-document.svg" alt="document icon">
+        <img class="icon-img" src="/images/icon-folder.svg" alt="folder icon">
+        <img class="icon-img" src="/images/icon-upload.svg" alt="upload icon">
+
+    </div>
+
+    <!-- Information Bubble Section -->
+    <div class="info-bubble">
+      <p><span class="big-num">185</span> GB LEFT</p>
+    </div>
+
+
+    <!-- Indicator Box Section -->
+    <div class="indicator-box">
+      <p class="attention">You’ve used <span class="highlight">815 GB</span> of your storage</p>
+        <div class="scale">
+          <div class="progBar">
+            <div class="dot">
+
+            </div>
+          </div>
+        </div>
+      <p class="startValue">0 GB</p>
+      <p class="totalValue">1000 GB</p>
+    </div>
+
+
   
-  0 GB
-  1000 GB
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Carl Nickles</a>.
+    </div>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+
   </div>
+
 </body>
 </html>

@@ -9,7 +9,7 @@ The designs were created to the following widths:
 
 ## Colors
 
-### Primary
+### Primary for the indicator
 
 - Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%)
 
